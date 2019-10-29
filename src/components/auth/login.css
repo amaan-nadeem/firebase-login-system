@@ -1,0 +1,13 @@
+.login-form{
+    position: absolute;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+@media(max-width: 500px){
+    .login-form{
+        width: 300px;
+    }
+}
